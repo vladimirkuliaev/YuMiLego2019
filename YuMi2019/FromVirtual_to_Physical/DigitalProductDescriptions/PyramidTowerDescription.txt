@@ -1,0 +1,21 @@
+create RectangleLego Rectan1 blue east
+create RectangleLego Rectan5 blue east
+create RectangleLego Rectan2 green east
+create RectangleLego Rectan3 yellow north
+create RectangleLego Rectan4 green east
+create RectangleLego Rectan6 yellow south
+create RectangleLego Rectan7 red north
+create RectangleLego Rectan8 red north
+create RectangleLego Rectan9 white east
+create SquareLego Square1 white
+
+
+connect Rectan2 bottomA Rectan1 topC
+connect Rectan2 bottomC Rectan3 topA
+connect Rectan3 topC Rectan4 bottomC 
+connect Rectan5 topC Rectan4 bottomA
+connect Rectan6 bottomA Rectan5 topA
+connect Rectan7 bottomA Rectan2 topA
+connect Rectan8 bottomA Rectan2 topC
+connect Rectan9 bottomA Rectan7 topB
+connect Square1 bottom Rectan9 topB
